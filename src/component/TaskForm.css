@@ -1,0 +1,61 @@
+/* TaskForm.css */
+.task-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input[type="text"],
+  .task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-form button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  .task-form button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  /* Filters.css */
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+  }
+  
+  .filters input[type="text"],
+  .filters select,
+  .filters input[type="date"] {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .filters input[type="text"],
+  .filters select {
+    width: 150px;
+  }
+  
+  .filters input[type="date"] {
+    width: 200px;
+  }
+  
